@@ -1,284 +1,340 @@
-                           :root {
-                              --violet: #9356DC;
-                              --rose: #FF79DA;
-                              --vert: #99E2D0;
-                          }
-                          
-                          body {
-                              margin: 0;
-                          }
-                          
-                          main {}
-                          
-                          header {
-                              background: white;
-                              display: flex;
-                              height: 91px;
-                              box-shadow: 0px 0px 6px 0px black;
-                              margin-bottom: 5px;
-                          }
-                          
-                          header img {
-                              margin: auto;
-                              width: 211px;
-                          }
-                          
-                          .section-top1 {
-                              display: flex;
-                              flex-direction: column;
-                              align-items: center;
-                          }
-                          
-                          .location {
-                              display: flex;
-                              align-items: center;
-                              font-size: 19px;
-                              color: #7a7a7a;
-                              justify-content: center;
-                              background: rgb(246, 246, 246);
-                          }
-                          
-                          .location_icon {
-                              margin-right: 16px;
-                          }
-                          
-                          .section-top1 {
-                              background: rgb(250, 250, 250);
-                          }
-                          
-                          .section-top-title {
-                              text-align: center;
-                              width: 298px;
-                              font-size: 31px;
-                              margin-top: 51px;
-                          }
-                          
-                          .section-top-text {
-                              font-size: 19px;
-                              margin-top: 1px;
-                          }
-                          
-                          .section-top-button {
-                              border-radius: 1830px;
-                              padding-right: 21px;
-                              padding-left: 21px;
-                              background: linear-gradient(0deg, var(--violet), var(--rose));
-                          }
-                          
-                          .section-top-button p {
-                              font-size: 18px;
-                              color: white;
-                          }
-                          
-                          .section-top2 {
-                              background: white;
-                          }
-                          
-                          .section-top2-title {
-                              padding-left: 9%;
-                              font-size: 26px;
-                              margin-bottom: 11px;
-                              margin-top: 26px;
-                          }
-                          
-                          .section-top-bloc {
-                              display: flex;
-                              flex-direction: column;
-                              background: white;
-                              margin: auto;
-                              max-width: 1900px;
-                          }
-                          
-                          .section-top2-title {}
-                          
-                          .inside-section-top2 {
-                              display: flex;
-                              justify-content: space-between;
-                              margin-right: 10%;
-                              margin-left: 10%;
-                              background: white;
-                          }
-                          
-                          .section-top2-bloc {
-                              background: rgb(246, 246, 246);
-                              width: 26%;
-                              height: 60px;
-                              border-radius: 30px;
-                              display: flex;
-                              align-items: center;
-                          }
-                          
-                          .section-top2-bloc-text {
-                              font-size: 20px;
-                              margin-left: 21px;
-                          }
-                          
-                          .section-top2-bloc-number {
-                              padding-bottom: 2px;
-                              padding-top: 4px;
-                              padding-right: 11px;
-                              padding-left: 10px;
-                              border-radius: 30px;
-                              background: mediumpurple;
-                              font-size: 22px;
-                              transform: translate(-13px, 0px);
-                              color: white;
-                          }
-                          
-                          .section-top-2-bloc-icon {
-                              margin-left: -6px;
-                              color: grey;
-                          }
-                          
-                          .section-top3-bloc {
-                              background: white;
-                              width: 290px;
-                              height: 290px;
-                              border-radius: 30px;
-                              overflow: hidden;
-                              margin-bottom: 22px;
-                          }
-                          
-                          .bloc-img {
-                              overflow: hidden;
-                              width: 100%;
-                              height: 200px;
-                          }
-                          
-                          .bloc-img img {
-                              width: inherit;
-                          }
-                          
-                          .news {
-                              background: #99E2D0;
-                              height: 35px;
-                              width: 95px;
-                              display: flex;
-                              align-items: center;
-                              justify-content: center;
-                              position: absolute;
-                              margin-left: 171px;
-                              margin-top: 31px;
-                              color: #38806e;
-                          }
-                          
-                          .bloc-texte {
-                              display: flex;
-                              justify-content: space-between;
-                          }
-                          
-                          .bloc_lieux {
-                              margin-top: 16px;
-                              margin-left: 18px;
-                          }
-                          
-                          .info {
-                              font-size: 20px;
-                              font-weight: bold;
-                          }
-                          
-                          .lieux {
-                              font-size: 19px;
-                          }
-                          
-                          .heart {
-                              font-size: 31px;
-                              margin-right: 21px;
-                              margin-top: 25px;
-                          }
-                          
-                          .inside-section-top3 {
-                              background: rgb(246, 246, 246);
-                              display: flex;
-                              flex-wrap: wrap;
-                              width: 599px;
-                              margin: auto;
-                              justify-content: space-between;
-                              padding-left: 10px;
-                              padding-right: 10px;
-                              padding-right: 10px;
-                          }
-                          
-                          .section-top3-title {
-                              padding-right: 461px;
-                              font-size: 31px;
-                              text-align: center;
-                          }
-                          
-                          .section-top3 {
-                              background: rgb(246, 246, 246);
-                          }
-                          
-                          .imgenchante {
-                              margin-top: -59px;
-                          }
-                          
-                          footer {
-                              background: rgb(78, 70, 70);
-                              height: 131px;
-                          }
-                          
-                          .inside-footer {
-                              display: flex;
-                              flex-direction: column;
-                              margin-left: 15%;
-                              margin-right: 15%;
-                          }
-                          
-                          .inside-footer img {
-                              width: 148px;
-                              margin-top: 31px;
-                          }
-                          
-                          .footer-bloc {
-                              display: flex;
-                              justify-content: space-between;
-                              width: 810px;
-                              font-size: 20px;
-                              margin-top: 20px;
-                              color: white;
-                          }
-                          
-                          @media only screen and ( max-width:768px) {
-                              body {
-                                  background-color: lightblue;
-                              }
-                          }
-                          
-                          @media only screen and ( min-width:768px) and (max-width:992px) {
-                              body {
-                                  background-color: red;
-                              }
-                              .section-top-bloc {
-                                  display: flex;
-                                  flex-direction: column;
-                                  background: white;
-                                  margin: auto;
-                              }
-                              .inside-section-top2 {
-                                  display: flex;
-                                  /* justify-content: space-between; */
-                                  margin-right: 10%;
-                                  margin-left: 10%;
-                                  background: white;
-                                  flex-direction: column;
-                              }
-                              .section-top2-bloc {
-                                  background: rgb(246, 246, 246);
-                                  width: 100%;
-                                  height: 60px;
-                                  border-radius: 30px;
-                                  display: flex;
-                                  align-items: center;
-                                  margin-bottom: 21px;
-                              }
-                              .inside-footer {
-                                  display: flex;
-                                  flex-direction: column;
-                                  margin-left: 50px;
-                                  margin-right: 0px;
-                              }
-                              .footer-bloc {
-                                  width: 89%;
-                              }
-                          }
+                                                   :root {
+                                                      --violet: #9356DC;
+                                                      --rose: #FF79DA;
+                                                      --vert: #99E2D0;
+                                                  }
+                                                  
+                                                  body {
+                                                      margin: 0;
+                                                  }
+                                                  
+                                                  main {}
+                                                  
+                                                  header {
+                                                      background: white;
+                                                      display: flex;
+                                                      height: 91px;
+                                                      box-shadow: 0px 0px 6px 0px black;
+                                                      margin-bottom: 5px;
+                                                  }
+                                                  
+                                                  header img {
+                                                      margin: auto;
+                                                      width: 211px;
+                                                  }
+                                                  
+                                                  .section-top1 {
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      align-items: center;
+                                                  }
+                                                  
+                                                  .location {
+                                                      display: flex;
+                                                      align-items: center;
+                                                      font-size: 19px;
+                                                      color: #7a7a7a;
+                                                      justify-content: center;
+                                                      background: rgb(246, 246, 246);
+                                                  }
+                                                  
+                                                  .location_icon {
+                                                      margin-right: 16px;
+                                                  }
+                                                  
+                                                  .section-top1 {
+                                                      background: rgb(250, 250, 250);
+                                                  }
+                                                  
+                                                  .section-top-title {
+                                                      text-align: center;
+                                                      width: 298px;
+                                                      font-size: 31px;
+                                                      margin-top: 51px;
+                                                  }
+                                                  
+                                                  .section-top-text {
+                                                      font-size: 19px;
+                                                      margin-top: 1px;
+                                                  }
+                                                  
+                                                  .section-top-button {
+                                                      border-radius: 1830px;
+                                                      padding-right: 21px;
+                                                      padding-left: 21px;
+                                                      background: linear-gradient(0deg, var(--violet), var(--rose));
+                                                  }
+                                                  
+                                                  .section-top-button p {
+                                                      font-size: 18px;
+                                                      color: white;
+                                                  }
+                                                  
+                                                  .section-top2 {
+                                                      background: white;
+                                                  }
+                                                  
+                                                  .section-top2-title {
+                                                      padding-left: 9%;
+                                                      font-size: 26px;
+                                                      margin-bottom: 11px;
+                                                      margin-top: 26px;
+                                                  }
+                                                  
+                                                  .section-top-bloc {
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      background: white;
+                                                      margin: auto;
+                                                      max-width: 1900px;
+                                                  }
+                                                  
+                                                  .section-top2-title {}
+                                                  
+                                                  .inside-section-top2 {
+                                                      display: flex;
+                                                      justify-content: space-between;
+                                                      margin-right: 10%;
+                                                      margin-left: 10%;
+                                                      background: white;
+                                                  }
+                                                  
+                                                  .section-top2-bloc {
+                                                      background: rgb(246, 246, 246);
+                                                      width: 26%;
+                                                      height: 60px;
+                                                      border-radius: 30px;
+                                                      display: flex;
+                                                      align-items: center;
+                                                  }
+                                                  
+                                                  .section-top2-bloc-text {
+                                                      font-size: 20px;
+                                                      margin-left: 21px;
+                                                  }
+                                                  
+                                                  .section-top2-bloc-number {
+                                                      padding-bottom: 2px;
+                                                      padding-top: 4px;
+                                                      padding-right: 11px;
+                                                      padding-left: 10px;
+                                                      border-radius: 30px;
+                                                      background: mediumpurple;
+                                                      font-size: 22px;
+                                                      transform: translate(-13px, 0px);
+                                                      color: white;
+                                                  }
+                                                  
+                                                  .section-top-2-bloc-icon {
+                                                      margin-left: -6px;
+                                                      color: grey;
+                                                  }
+                                                  
+                                                  .section-top3-bloc {
+                                                      background: white;
+                                                      width: 290px;
+                                                      height: 290px;
+                                                      border-radius: 30px;
+                                                      overflow: hidden;
+                                                      margin-bottom: 22px;
+                                                  }
+                                                  
+                                                  .bloc-img {
+                                                      overflow: hidden;
+                                                      width: 100%;
+                                                      height: 200px;
+                                                  }
+                                                  
+                                                  .bloc-img img {
+                                                      width: inherit;
+                                                  }
+                                                  
+                                                  .news {
+                                                      background: #99E2D0;
+                                                      height: 35px;
+                                                      width: 95px;
+                                                      display: flex;
+                                                      align-items: center;
+                                                      justify-content: center;
+                                                      position: absolute;
+                                                      margin-left: 171px;
+                                                      margin-top: 31px;
+                                                      color: #38806e;
+                                                  }
+                                                  
+                                                  .bloc-texte {
+                                                      display: flex;
+                                                      justify-content: space-between;
+                                                  }
+                                                  
+                                                  .bloc_lieux {
+                                                      margin-top: 16px;
+                                                      margin-left: 18px;
+                                                  }
+                                                  
+                                                  .info {
+                                                      font-size: 20px;
+                                                      font-weight: bold;
+                                                  }
+                                                  
+                                                  .lieux {
+                                                      font-size: 19px;
+                                                  }
+                                                  
+                                                  .heart {
+                                                      font-size: 31px;
+                                                      margin-right: 21px;
+                                                      margin-top: 25px;
+                                                  }
+                                                  
+                                                  .inside-section-top3 {
+                                                      background: rgb(246, 246, 246);
+                                                      display: flex;
+                                                      flex-wrap: wrap;
+                                                      width: 599px;
+                                                      margin: auto;
+                                                      justify-content: space-between;
+                                                      padding-left: 10px;
+                                                      padding-right: 10px;
+                                                      padding-right: 10px;
+                                                  }
+                                                  
+                                                  .section-top3-title {
+                                                      padding-right: 461px;
+                                                      font-size: 31px;
+                                                      text-align: center;
+                                                  }
+                                                  
+                                                  .section-top3 {
+                                                      background: rgb(246, 246, 246);
+                                                  }
+                                                  
+                                                  .imgenchante {
+                                                      margin-top: -59px;
+                                                  }
+                                                  
+                                                  footer {
+                                                      background: rgb(78, 70, 70);
+                                                      height: 131px;
+                                                  }
+                                                  
+                                                  .inside-footer {
+                                                      display: flex;
+                                                      flex-direction: column;
+                                                      align-items: center;
+                                                  }
+                                                  
+                                                  .inside-footer img {
+                                                      width: 148px;
+                                                      margin-top: 31px;
+                                                  }
+                                                  
+                                                  .footer-bloc {
+                                                      display: flex;
+                                                      justify-content: space-between;
+                                                      width: 810px;
+                                                      font-size: 20px;
+                                                      margin-top: 20px;
+                                                      color: white;
+                                                  }
+                                                  
+                                                  @media only screen and ( max-width:768px) {
+                                                      body {
+                                                          background-color: lightblue;
+                                                      }
+                                                      main {
+                                                          margin: auto;
+                                                      }
+                                                      .section-top1 {
+                                                          text-align: center;
+                                                          padding-left: 50px;
+                                                          padding-right: 50px;
+                                                      }
+                                                      .inside-section-top2 {
+                                                          display: flex;
+                                                          /* justify-content: space-between; */
+                                                          margin-right: 4%;
+                                                          margin-left: 10%;
+                                                          background: white;
+                                                          flex-direction: column;
+                                                      }
+                                                      .section-top2-bloc {
+                                                          background: rgb(246, 246, 246);
+                                                          width: 100%;
+                                                          height: 60px;
+                                                          border-radius: 30px;
+                                                          display: flex;
+                                                          align-items: center;
+                                                          margin-bottom: 21px;
+                                                      }
+                                                      .section-top3-title {
+                                                          padding-right: 181px;
+                                                      }
+                                                      .inside-section-top3 {
+                                                          width: initial;
+                                                          justify-content: center;
+                                                      }
+                                                      .section-top3-bloc {
+                                                          width: 86%;
+                                                      }
+                                                      .news {
+                                                          -webkit-box-align: end;
+                                                          margin-left: 57%;
+                                                          margin-top: 4%;
+                                                      }
+                                                      footer {
+                                                          height: 100%;
+                                                      }
+                                                      .inside-footer {
+                                                          margin-left: 11%;
+                                                          margin-right: 0%;
+                                                          align-items: flex-start;
+                                                      }
+                                                      .footer-bloc {
+                                                          flex-direction: column;
+                                                          justify-content: flex-start;
+                                                          width: 230px;
+                                                      }
+                                                      .mini-bloc {
+                                                          margin-bottom: 10px;
+                                                      }
+                                                  }
+                                                  
+                                                  @media only screen and ( min-width:768px) and (max-width:992px) {
+                                                      body {
+                                                          background-color: red;
+                                                      }
+                                                      .section-top-bloc {
+                                                          display: flex;
+                                                          flex-direction: column;
+                                                          background: white;
+                                                          margin: auto;
+                                                      }
+                                                      .inside-section-top2 {
+                                                          display: flex;
+                                                          /* justify-content: space-between; */
+                                                          margin-right: 10%;
+                                                          margin-left: 10%;
+                                                          background: white;
+                                                          flex-direction: column;
+                                                      }
+                                                      .section-top2-bloc {
+                                                          background: rgb(246, 246, 246);
+                                                          width: 100%;
+                                                          height: 60px;
+                                                          border-radius: 30px;
+                                                          display: flex;
+                                                          align-items: center;
+                                                          margin-bottom: 21px;
+                                                      }
+                                                      .inside-footer {
+                                                          display: flex;
+                                                          flex-direction: column;
+                                                          margin-left: 50px;
+                                                          margin-right: 0px;
+                                                          align-items: flex-start;
+                                                      }
+                                                      .footer-bloc {
+                                                          width: 89%;
+                                                      }
+                                                  }
