@@ -109,10 +109,11 @@ header {
     align-items: center;
     margin-right: 11px;
     margin-bottom: 11px;
+    overflow: hidden;
 }
 
 .choix1 h1 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -124,6 +125,7 @@ header {
 .prix {
     font-weight: bold;
     font-size: 18px;
+    padding-left: 81px;
 }
 
 .big-bloc {
@@ -187,6 +189,51 @@ footer {
     justify-content: center;
     align-items: center;
     height: 4px;
+}
+
+.checkbox:hover {
+    height: 100%;
+    background: green;
+    position: relative;
+    left: 12px;
+    /* padding-left: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(15px, 0px); */
+    animation: checkboxe 1s ease-in-out normal forwards;
+    width: 60px;
+}
+
+@keyframes checkboxe {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.checkbox i {
+    font-size: 33px;
+    color: white;
+}
+
+.big-bloc {
+    animation: myAnim 1.5s linear 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
