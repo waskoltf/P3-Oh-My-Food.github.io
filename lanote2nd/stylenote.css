@@ -19,6 +19,7 @@ body {
 
 main {
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -29,13 +30,23 @@ header {
 .inside-header {
     display: flex;
     background: white;
+    align-items: center;
 }
 
 .arrow {
-    font-size: 17px;
+    font-size: 27px;
     display: flex;
     align-items: center;
     margin-left: 2%;
+    color: black
+}
+
+.arrow i {
+    padding-left: 16px;
+}
+
+.inside-header a {
+    text-decoration: none;
 }
 
 .logo-top {
@@ -93,6 +104,11 @@ header {
     background: linear-gradient(0deg, var(--violet), var(--rose));
 }
 
+.section-top-button:hover {
+    opacity: 0.5;
+    transition: all 800ms;
+}
+
 .section-top-button {
     color: white;
 }
@@ -109,10 +125,34 @@ header {
     align-items: center;
     margin-right: 11px;
     margin-bottom: 11px;
+    overflow: hidden;
+}
+
+.checkbox {
+    width: 0px;
+}
+
+.mini-bloc:hover .checkbox {
+    height: 100%;
+    background: #99E2D0;
+    position: relative;
+    left: 12px;
+    /* padding-left: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(15px, 0px); */
+    animation: checkboxe 500ms ease-in-out normal forwards;
+    /* width: 60px; */
+    margin-left: 1px;
+}
+
+.mini-bloc:hover i {
+    animation: valid 900ms ease 0s 1 normal forwards;
 }
 
 .choix1 h1 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -124,6 +164,8 @@ header {
 .prix {
     font-weight: bold;
     font-size: 18px;
+    /* padding-left: 81px; */
+    margin-left: auto;
 }
 
 .big-bloc {
@@ -132,14 +174,26 @@ header {
 
 .entre2 {
     margin-bottom: 18px;
+    font-size: 22px;
+    border-bottom: solid;
+    width: 63px;
+    border-color: #99E2D0;
 }
 
 .plat {
     margin-bottom: 18px;
+    font-size: 22px;
+    border-bottom: solid;
+    width: 54px;
+    border-color: #99E2D0;
 }
 
 .dessert {
     margin-bottom: 18px;
+    font-size: 22px;
+    border-bottom: solid;
+    width: 63px;
+    border-color: #99E2D0;
 }
 
 footer {
@@ -166,6 +220,17 @@ footer {
     margin-top: 14px;
     color: white;
     padding-bottom: 11px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.footer-title {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shrikhand', cursive;
+    font-size: 24px;
+    margin-top: 30px;
+    color: white;
 }
 
 .section-bottom {
@@ -189,8 +254,94 @@ footer {
     height: 4px;
 }
 
+.flexcoeur {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 7px;
+    margin-top: 16px;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+/* coeur  */
+
+:root {
+    --transition-time: 0.3s;
+}
+
+.fa-heart {
+    color: black;
+    cursor: pointer;
+    transition: color var(--transition-time);
+}
+
+.heart-fill {
+    opacity: 0;
+    transition: background-position var(--transition-time), opacity var(--transition-time);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient( 333deg, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
+    background-position: 0px 50px;
+    background-repeat: no-repeat;
+}
+
+.fa-stack.fa-2x {
+    display: flex;
+    align-items: center;
+}
+
+.fa-stack:hover .heart-fill {
+    background-position: 0px 0px;
+    opacity: 1;
+}
+
+.fa-stack:hover .heart {
+    color: transparent;
+}
+
+.fa-stack i {
+    font-size: 1em;
+}
+
+
+/* fin du coeur */
+
+
+/* .checkbox:hover i {
+    animation: valid 1s ease-out 0s 1 normal forwards;
+} */
+
+@keyframes valid {
+    0% {
+        opacity: 0;
+        transform: rotate(-540deg) scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+@keyframes checkboxe {
+    0% {
+        opacity: 0;
+        transform: translateX(250px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        width: 60px;
+    }
+}
+
+.checkbox i {
+    font-size: 33px;
+    color: white;
+}
+
 .big-bloc {
-    animation: myAnim 1.5s linear 0s 1 normal forwards;
+    animation: myAnim 900ms cubic-bezier(0.41, 0.14, 0.65, 0.99) 0s 1 normal forwards;
 }
 
 @keyframes myAnim {
@@ -211,6 +362,7 @@ footer {
     body {
         /* background-color: red; */
         height: auto;
+        background-color: #ececec;
     }
     html {
         height: auto;
@@ -225,9 +377,9 @@ footer {
         /* width: 840px; */
         margin: auto;
         /* height: 384px; */
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 40px 40px 0px 0px;
         padding-left: 20px;
-        transform: translate(0px, -56px);
+        transform: translate(0px, -136px);
         /* padding-bottom: 29px; */
         padding-bottom: 0px;
     }
