@@ -166,6 +166,13 @@ header {
     margin: 0;
 }
 
+.choix1:hover h1 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 260px;
+    white-space: nowrap;
+}
+
 .choix1 p {
     font-size: 17px;
     margin: 0;
