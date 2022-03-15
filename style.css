@@ -414,12 +414,12 @@ footer {
     align-items: center;
 }
 
-.fa-stack:hover .heart-fill {
+.fa-stack:active .heart-fill {
     background-position: 0px 0px;
     opacity: 1;
 }
 
-.fa-stack:hover .heart {
+.fa-stack:active .heart {
     color: transparent;
 }
 
